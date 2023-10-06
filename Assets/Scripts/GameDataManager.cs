@@ -56,8 +56,8 @@ public class GameDataManager : MonoBehaviour
         
         SaveData data = new SaveData();
         data.CurrentName = PlayerName;
-        //data.HighScore = 0;
-        data.HighScore = HighScore;
+       // data.HighScore = 0;
+       data.HighScore = HighScore;
         data.HighScoreHolder = HighScoreHolder;
         
         string json = JsonUtility.ToJson(data);
